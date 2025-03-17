@@ -310,8 +310,13 @@ a:visited {
 
 .footer p {
     margin: 0;
-    color: #000 !important; /* Force black text even in dark mode */
+    color: #000; /* Black text in light mode */
 }
+
+.dark-mode .footer p {
+    color: #fff; /* White text in dark mode */
+}
+
 </style>
 </head>
 <body>
