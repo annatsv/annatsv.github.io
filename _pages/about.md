@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a Philosophy PhD and Computer Science (AI/ML) ScM student at <a href="https://philosophy.brown.edu/people" target="_blank">Brown</a>. I work with <a href="https://sites.google.com/view/adampautz/home" target="_blank">Adam Pautz</a>, <a href="https://cs.brown.edu/people/epavlick/" target="_blank">Ellie Pavlick</a>, <a href="https://philosophy.brown.edu/people/christopher-hill" target="_blank">Chris Hill</a>, and <a href="https://consc.net/" target="_blank">David Chalmers</a>.
+I’m a Philosophy PhD and Computer Science (AI/ML) ScM student at <a href="https://philosophy.brown.edu/people" target="_blank">Brown</a>. I work with <a href="https://sites.google.com/view/adampautz/home" target="_blank">Adam Pautz</a>, <a href="https://cs.brown.edu/people/epavlick/" target="_blank">Ellie Pavlick</a>, <a href="https://vivo.brown.edu/display/cshill#" target="_blank">Chris Hill</a>, and <a href="https://consc.net/" target="_blank">David Chalmers</a>.
 
 I'm also an AI researcher at <a href="https://futuretech.mit.edu/" target="_blank">MIT FutureTech</a>. In the Fall, I'll be an AI Postdoctoral Research Fellow at <a href="https://ai.princeton.edu/ai-lab" target="_blank">Princeton</a>.
 
