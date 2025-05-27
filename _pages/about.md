@@ -9,7 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+#  more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
@@ -28,8 +28,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a Philosophy PhD and Computer Science (AI/ML) ScM student at <a href="https://philosophy.brown.edu/people" target="_blank">Brown</a>. I work with <a href="https://sites.google.com/view/adampautz/home" target="_blank">Adam Pautz</a>, <a href="https://cs.brown.edu/people/epavlick/" target="_blank">Ellie Pavlick</a>, <a href="https://philosophy.brown.edu/people/christopher-hill" target="_blank">Chris Hill</a> and <a href="https://consc.net/" target="_blank">David Chalmers</a>.
+I’m a Philosophy PhD and Computer Science (AI/ML) ScM student at <a href="https://philosophy.brown.edu/people" target="_blank">Brown</a>. I work with <a href="https://sites.google.com/view/adampautz/home" target="_blank">Adam Pautz</a>, <a href="https://cs.brown.edu/people/epavlick/" target="_blank">Ellie Pavlick</a>, <a href="https://philosophy.brown.edu/people/christopher-hill" target="_blank">Chris Hill</a>, and <a href="https://consc.net/" target="_blank">David Chalmers</a>.
 
 I'm also an AI researcher at <a href="https://futuretech.mit.edu/" target="_blank">MIT FutureTech</a>. In the Fall, I'll be an AI Postdoctoral Research Fellow at <a href="https://ai.princeton.edu/ai-lab" target="_blank">Princeton</a>.
 
 My research focuses on developing a human-centered approach to AI that integrates philosophical inquiry about the mind with cutting-edge methods in computer science. The goal of my work is to use philosophy to guide carefully designed experiments on AI that deepen our understanding of the mind and, in turn, to use insights about the mind to build explainable and ethical AI.
+
+Here is my <a href="https://annatsv.github.io/assets/pdf/Tsvetkov_CV.pdf" target="_blank">CV</a>.
+
+<p>Email: anna_tsvetkov [at] brown.edu</p>
