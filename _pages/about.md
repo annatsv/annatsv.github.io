@@ -23,6 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+<div style="font-size: 1.1em;>
 
 I’m a Philosophy PhD and Computer Science (AI/ML) ScM student at <a href="https://philosophy.brown.edu/people" target="_blank">Brown</a>. I work with <a href="https://sites.google.com/view/adampautz/home" target="_blank">Adam Pautz</a>, <a href="https://cs.brown.edu/people/epavlick/" target="_blank">Ellie Pavlick</a>, <a href="https://vivo.brown.edu/display/cshill#" target="_blank">Chris Hill</a>, and <a href="https://consc.net/" target="_blank">David Chalmers</a>.
 
