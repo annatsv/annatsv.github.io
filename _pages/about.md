@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<div style='font-size: 1.1em; line-height: 1.6;'><a href='https://www.brown.edu'>Brown University</a>. Philosophy and AI.</div>"
-
+subtitle: "<a href='https://www.brown.edu'>Brown University</a>. Philosophy and AI."
 
 profile:
   align: right
@@ -24,7 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div style="font-size: 1.1em; line-height: 1.6;">
 
 I’m a Philosophy PhD and Computer Science (AI/ML) ScM student at <a href="https://philosophy.brown.edu/people" target="_blank">Brown</a>. I work with <a href="https://sites.google.com/view/adampautz/home" target="_blank">Adam Pautz</a>, <a href="https://cs.brown.edu/people/epavlick/" target="_blank">Ellie Pavlick</a>, <a href="https://vivo.brown.edu/display/cshill#" target="_blank">Chris Hill</a>, and <a href="https://consc.net/" target="_blank">David Chalmers</a>.
 
@@ -36,4 +34,3 @@ Here is my <a href="https://annatsv.github.io/assets/pdf/Tsvetkov_CV.pdf" target
 
 <p>Email: anna_tsvetkov [at] brown.edu</p>
 
-</div>
