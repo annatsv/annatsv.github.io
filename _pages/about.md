@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='https://www.brown.edu'>Brown University</a>. Philosophy and AI."
+subtitle: 
 
 profile:
   align: right
