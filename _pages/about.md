@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "<a href='https://www.brown.edu'>Brown University</a>. Philosophy and AI."
+
 
 profile:
   align: right
@@ -27,8 +28,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a Philosophy PhD and Computer Science ScM student at <a href="https://philosophy.brown.edu/people" target="_blank">Brown</a>. I work with <a href="https://sites.google.com/view/adampautz/home" target="_blank">Adam Pautz</a>, <a href="https://cs.brown.edu/people/epavlick/" target="_blank">Ellie Pavlick</a>, <a href="https://philosophy.brown.edu/people/christopher-hill" target="_blank">Chris Hill</a>, and <a href="https://consc.net/" target="_blank">David Chalmers</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm also an AI researcher at <a href="https://futuretech.mit.edu/" target="_blank">MIT FutureTech</a>. In the Fall, I'll be an AI Postdoctoral Research Fellow at <a href="https://ai.princeton.edu/ai-lab" target="_blank">Princeton</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on developing a human-centered approach to AI that integrates philosophical inquiry about the mind with cutting-edge methods in computer science. The goal of my work is to use philosophy to guide carefully designed experiments on AI that deepen our understanding of the mind and, in turn, to use insights about the mind to build explainable and ethical AI.
