@@ -35,3 +35,7 @@ Here is my <a href="https://annatsv.github.io/assets/pdf/Tsvetkov_CV.pdf" target
 
 <p>Email: anna_tsvetkov [at] brown.edu</p>
 
+<h2 id="research">research</h2>
+<div class="publications">
+  {% bibliography --group_by none --query @*[selected=true]* %}
+</div>
