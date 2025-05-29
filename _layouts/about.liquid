@@ -45,11 +45,14 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Research -->
-    <h2 id="research">research</h2>
-    <div class="publications">
-      {% bibliography --group_by none --query @*[selected=true]* %}
-    </div>
+<!-- Research -->
+<h2 id="research">research</h2>
+<div class="clearfix">
+  <div class="publications">
+    {% bibliography --group_by none --query @*[selected=true]* %}
+  </div>
+</div>
+
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
