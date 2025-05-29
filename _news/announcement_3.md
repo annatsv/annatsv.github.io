@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Pleased to share that I'll be joining Princeton's Natural and Artificial Minds (NAM) in the Fall as an AI Postdoctoral Research Fellow! :brain::robot:
+Pleased to share that I'll be joining [Princeton's Natural and Artificial Minds (NAM)](https://nam.ai.princeton.edu/) in the Fall as an AI Postdoctoral Research Fellow! :brain::robot:
