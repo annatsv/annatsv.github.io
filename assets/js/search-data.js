@@ -381,7 +381,7 @@ ninja.data = [{
           title: 'Pleased to share that I’ll be joining Princeton’s Natural and Artificial Minds (NAM)...',
           description: "",
           section: "News",},{id: "news-successfully-defended-my-phd-dissertation-human-centered-intelligence-and-scm-thesis-can-we-interpret-artificial-neural-networks-as-having-beliefs-and-desires",
-          title: 'Successfully defended my PhD dissertation Human-Centered Intelligence and ScM thesis Can We Interpret...',
+          title: 'Successfully defended my PhD dissertation ‘Human-Centered Intelligence’ and ScM thesis ‘Can We Interpret...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
