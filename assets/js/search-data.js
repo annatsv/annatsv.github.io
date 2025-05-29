@@ -380,7 +380,7 @@ ninja.data = [{
             },},{id: "news-pleased-to-share-that-i-ll-be-joining-princeton-s-natural-and-artificial-minds-nam-in-the-fall-as-an-ai-postdoctoral-research-fellow-brain-robot",
           title: 'Pleased to share that I’ll be joining Princeton’s Natural and Artificial Minds (NAM)...',
           description: "",
-          section: "News",},{id: "news-successfully-defended-my-philosophy-phd-dissertation-human-centered-intelligence-and-my-cs-masters-thesis-can-we-interpret-artificial-neural-networks-as-having-beliefs-and-desires-special-thanks-to-my-wonderful-advisors-and-committee",
+          section: "News",},{id: "news-successfully-defended-my-philosophy-phd-dissertation-human-centered-intelligence-and-my-cs-masters-thesis-can-we-interpret-artificial-neural-networks-as-having-beliefs-and-desires",
           title: 'Successfully defended my Philosophy PhD dissertation Human-Centered Intelligence and my CS Masters thesis...',
           description: "",
           section: "News",},{id: "projects-project-1",
