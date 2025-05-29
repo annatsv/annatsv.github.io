@@ -40,27 +40,27 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
-          {% endfor %}
+<div class="collapse navbar-collapse text-right" id="navbarNav">
+  <ul class="navbar-nav ml-auto flex-nowrap">
+    {% for page in site.pages %}
+      {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+    {% endfor %}
 
 
-          <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
+    <!-- About -->
+    <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+      <a class="nav-link" href="{{ '/' | relative_url }}">
+        {{- about_title }}
+        {% if page.permalink == '/' %}
+          <span class="sr-only">(current)</span>
+        {% endif %}
+      </a>
+    </li>
 
-    <!-- research (scrolls to section) -->
-<li class="nav-item">
-  <a class="nav-link" href="/#research">research</a>
-</li>
+    <!-- Research -->
+    <li class="nav-item">
+      <a class="nav-link" href="{{ '/' | relative_url }}#research">research</a>
+    </li>
 
 
           <!-- Other pages -->
