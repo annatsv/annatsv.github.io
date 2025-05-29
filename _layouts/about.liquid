@@ -41,11 +41,15 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
+      <h2 id="news">news</h2>
       {% include news.liquid limit=true %}
     {% endif %}
+
+    <!-- Research -->
+    <h2 id="research">research</h2>
+    <div class="publications">
+      {% bibliography --group_by none --query @*[selected=true]* %}
+    </div>
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
