@@ -45,9 +45,6 @@
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
-<li class="nav-item">
-  <a class="nav-link" href="{{ '/' | relative_url }}#research">Research</a>
-</li>
 
 
           <!-- About -->
@@ -59,6 +56,11 @@
               {% endif %}
             </a>
           </li>
+
+    <!-- research (scrolls to section) -->
+    <li class="nav-item">
+      <a class="nav-link" href="{{ '/' | relative_url }}#research">research</a>
+    </li>
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
