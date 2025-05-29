@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Successfully defended my Philosophy PhD dissertation *Human-Centered Intelligence* and my CS Masters thesis *Can We Interpret Artificial Neural Networks as Having Beliefs and Desires?* 
+Successfully defended my Philosophy PhD dissertation *Human-Centered Intelligence* and CS Masters thesis *Can We Interpret Artificial Neural Networks as Having Beliefs and Desires?* 
