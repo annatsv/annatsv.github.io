@@ -377,14 +377,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-pleased-to-share-that-i-ll-be-joining-princeton-s-natural-and-artificial-minds-nam-in-the-fall-as-an-ai-postdoctoral-research-fellow-brain-robot",
+            },},{id: "news-pleased-to-share-that-i-ll-be-joining-princeton-s-natural-and-artificial-minds-nam-in-the-fall-as-an-ai-postdoctoral-research-fellow-brain-robot",
           title: 'Pleased to share that I’ll be joining Princeton’s Natural and Artificial Minds (NAM)...',
           description: "",
-          section: "News",},{id: "news-successfully-defended-my-philosophy-phd-dissertation-human-centered-intelligence-and-my-cs-masters-thesis-can-we-interpret-artificial-neural-networks-as-having-beliefs-and-desires-special-thanks-to-my-wonderful-advisors-adam-pautz-and-ellie-pavlick-and-committee",
-          title: 'Successfully defended my Philosophy PhD dissertation, Human-Centered Intelligence, and my CS Masters thesis,...',
+          section: "News",},{id: "news-successfully-defended-my-philosophy-phd-dissertation-human-centered-intelligence-and-my-cs-masters-thesis-can-we-interpret-artificial-neural-networks-as-having-beliefs-and-desires-special-thanks-to-my-wonderful-advisors-and-committee",
+          title: 'Successfully defended my Philosophy PhD dissertation Human-Centered Intelligence and my CS Masters thesis...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
