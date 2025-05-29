@@ -385,8 +385,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/al-folio/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-pleased-to-share-that-i-ll-be-joining-princeton-s-natural-and-artificial-minds-nam-in-the-fall-as-an-ai-postdoctoral-research-fellow-brain-robot",
+          title: 'Pleased to share that I’ll be joining Princeton’s Natural and Artificial Minds (NAM)...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
