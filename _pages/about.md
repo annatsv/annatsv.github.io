@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Philosophy PhD and Computer Science ScM at Brown
+subtitle: Philosophy and AI at Brown
 
 
 
