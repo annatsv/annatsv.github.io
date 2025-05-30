@@ -45,10 +45,10 @@ email: anna_tsvetkov@brown.edu # your email address
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-PhilPeople: # can be any name here other than the ones already defined above
-  logo: img/Philpeople.png # can be png, svg, jpg
-  title: PhilPeople
-  url: https://philpeople.org/profiles/anna-tsvetkov-1
+#PhilPeople: # can be any name here other than the ones already defined above
+  #logo: img/Philpeople.png # can be png, svg, jpg
+  #title: PhilPeople
+  #url: https://philpeople.org/profiles/anna-tsvetkov-1
 Bluesky: # can be any name here other than the ones already defined above
   logo: https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg # can be png, svg, jpg
   title: Bluesky
