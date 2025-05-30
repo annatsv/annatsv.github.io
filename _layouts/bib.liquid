@@ -34,33 +34,28 @@
 {% assign author_array_limit = author_array_size %}
 
 <div class="author" style="font-size: 0.9rem;">
-  {%- for author in entry.author_array limit: author_array_limit -%}
-    {% assign author_is_self = false %}
-    {% assign author_full = author.first | append: ' ' | append: author.last | strip | replace: ',', '' | downcase %}
-    {% assign author_full_rev = author.last | append: ' ' | append: author.first | strip | replace: ',', '' | downcase %}
-    {% assign scholar_full = site.scholar.first_name | append: ' ' | append: site.scholar.last_name | strip | downcase %}
-    {% assign scholar_full_rev = site.scholar.last_name | append: ' ' | append: site.scholar.first_name | strip | downcase %}
-    {% if author_full == scholar_full or author_full_rev == scholar_full or author_full == scholar_full_rev or author_full_rev == scholar_full_rev %}
-      {% assign author_is_self = true %}
-    {% endif %}
-
-    {%- unless forloop.first -%}
-      {%- if forloop.last and forloop.length > 2 -%}
-        , and 
-      {%- elsif forloop.last -%}
-        and 
-      {%- else -%}
-        , 
-      {%- endif -%}
-    {%- endunless -%}
-
-    {%- if author_is_self -%}
-      <span style="text-decoration: underline;">{{ author.first }} {{ author.last }}</span>
-    {%- else -%}
-      {{ author.first }} {{ author.last }}
-    {%- endif -%}
-  {%- endfor -%}
+{%- assign scholar_first = site.first_name | downcase | strip -%}
+{%- assign scholar_last = site.last_name | downcase | strip -%}
+{%- assign num_authors = entry.author_array | size -%}
+{%- for author in entry.author_array -%}
+  {%- assign a_first = author.first | downcase | strip -%}
+  {%- assign a_last = author.last | downcase | strip -%}
+  {%- assign author_is_self = false -%}
+  {%- if (a_first == scholar_first and a_last == scholar_last) or (a_first == scholar_last and a_last == scholar_first) -%}
+    {%- assign author_is_self = true -%}
+  {%- endif -%}
+  {%- if forloop.index0 > 0 and num_authors > 2 -%}, {% endif -%}
+  {%- if num_authors > 1 and forloop.last -%}
+    {%- if num_authors > 2 -%}and {% else -%} and {% endif -%}
+  {%- endif -%}
+  {%- if author_is_self -%}
+    <span style="text-decoration: underline;">{{ author.first }} {{ author.last }}</span>
+  {%- else -%}
+    {{ author.first }} {{ author.last }}
+  {%- endif -%}
+{%- endfor -%}
 </div>
+
 
 
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
