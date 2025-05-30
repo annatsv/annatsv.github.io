@@ -36,19 +36,32 @@
 <div class="author" style="font-size: 0.9rem;">
   {%- for author in entry.author_array limit: author_array_limit -%}
     {% assign author_is_self = false %}
-{% assign author_full = author.first | append: ' ' | append: author.last %}
-{% assign author_full_rev = author.last | append: ', ' | append: author.first %}
-{% assign scholar_full = site.scholar.first_name | append: ' ' | append: site.scholar.last_name %}
-{% assign scholar_full_rev = site.scholar.last_name | append: ', ' | append: site.scholar.first_name %}
+    {% assign author_full = author.first | append: ' ' | append: author.last | strip | replace: ',', '' | downcase %}
+    {% assign author_full_rev = author.last | append: ' ' | append: author.first | strip | replace: ',', '' | downcase %}
+    {% assign scholar_full = site.scholar.first_name | append: ' ' | append: site.scholar.last_name | strip | downcase %}
+    {% assign scholar_full_rev = site.scholar.last_name | append: ' ' | append: site.scholar.first_name | strip | downcase %}
+    {% if author_full == scholar_full or author_full_rev == scholar_full or author_full == scholar_full_rev or author_full_rev == scholar_full_rev %}
+      {% assign author_is_self = true %}
+    {% endif %}
 
-{% assign author_full_clean = author_full | downcase | strip %}
-{% assign author_full_rev_clean = author_full_rev | downcase | strip %}
-{% assign scholar_full_clean = scholar_full | downcase | strip %}
-{% assign scholar_full_rev_clean = scholar_full_rev | downcase | strip %}
+    {%- unless forloop.first -%}
+      {%- if forloop.last and forloop.length > 2 -%}
+        , and 
+      {%- elsif forloop.last -%}
+        and 
+      {%- else -%}
+        , 
+      {%- endif -%}
+    {%- endunless -%}
 
-{% if author_full_clean == scholar_full_clean or author_full_rev_clean == scholar_full_clean or author_full_clean == scholar_full_rev_clean or author_full_rev_clean == scholar_full_rev_clean %}
-  {% assign author_is_self = true %}
-{% endif %}
+    {%- if author_is_self -%}
+      <span style="text-decoration: underline;">{{ author.first }} {{ author.last }}</span>
+    {%- else -%}
+      {{ author.first }} {{ author.last }}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+
 
 
     {%- if forloop.length > 1 -%}
