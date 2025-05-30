@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: Philosophy PhD and Computer Science ScM student at Brown University
 
 
 
