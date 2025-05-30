@@ -28,3 +28,13 @@ $max-content-width: {{ site.max_width }};
 html {
   scroll-behavior: smooth;
 }
+
+.profile img,
+.profile .img-fluid {
+  width: 350px !important;     /* or whatever size you want! */
+  max-width: 100%;
+  height: auto !important;     /* key for keeping proportions! */
+  display: block;
+  object-fit: contain;         /* 'contain' is safest for preserving ratio */
+}
+
