@@ -25,3 +25,6 @@ $max-content-width: {{ site.max_width }};
 ;
 
 
+html {
+  scroll-behavior: smooth;
+}
