@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Philosophy and AI at Brown University
+subtitle: Philosophy and AI at Brown
 
 
 
