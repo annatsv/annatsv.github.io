@@ -436,13 +436,6 @@ ninja.data = [{
           window.open("mailto:%61%6E%6E%61_%74%73%76%65%74%6B%6F%76@%62%72%6F%77%6E.%65%64%75", "_blank");
         },
       },{
-        id: 'social-PhilPeople',
-        title: 'Philpeople',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://philpeople.org/profiles/anna-tsvetkov-1", "_blank");
-        },
-      },{
         id: 'social-Bluesky',
         title: 'Bluesky',
         section: 'Socials',
