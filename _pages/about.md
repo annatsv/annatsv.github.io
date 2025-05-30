@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Philosophy and AI, Brown University
+subtitle: Philosophy and AI <a href="https://www.brown.edu/" target="_blank">Brown University</a>
+
 
 
 
