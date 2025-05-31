@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: P**hilosophy and AI** at <a href="https://philosophy.brown.edu/people" target="_blank">Brown University</a>
 
 
 
