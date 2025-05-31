@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Philosophy and AI&nbsp;&middot;&nbsp;Brown University
+subtitle: Philosophy and AI&nbsp;&bull;&nbsp;Brown University
+
 
 
 
