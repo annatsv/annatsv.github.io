@@ -607,5 +607,6 @@ div.cover-text-placeholder{
 }
 .abstract-toggle:hover {
   color: #FD926F;
-  text-decoration: underline;
+  text-decoration: none;
 }
+
