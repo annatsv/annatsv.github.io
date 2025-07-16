@@ -165,7 +165,7 @@ p {
 p.intro {
 	color: #5b5e6d;
 	font-family: 'AvenirNext-Regular', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 18px;
 	margin: 16px 0px 24px 0px;
 }
@@ -178,7 +178,7 @@ p.highlight {
 }
 
 p.img-caption{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 	padding: 0px 32px;
 }
@@ -221,18 +221,18 @@ For publications
 
 span.paper-title{
 	font-family: 'AvenirNext-DemiBold', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 }
 
 span.authors{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 	font-family: 'AvenirNext-Regular', sans-serif;
 }
 
 span.paper-details{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 	color: #444;
 	font-family: 'AvenirNext-Medium', sans-serif;
@@ -318,7 +318,7 @@ a.header-link {
 }
 
 .cv{
-	font-size: 14px !important;
+	font-size: 16px !important;
 	font-family: 'AvenirNext-Bold', sans-serif;
 	/*margin-top: 24px !important;*/
 }
