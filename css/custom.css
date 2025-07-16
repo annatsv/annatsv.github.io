@@ -264,10 +264,6 @@ b {
 	START OF TEXT STYLES		 
 ============================
 */
-.abstract-toggle:hover {
-  color: #FD926F;
-  text-decoration: none;
-}
 
 .uppercase{
 	text-transform: uppercase;
@@ -604,3 +600,12 @@ div.cover-text-placeholder{
 	END OF MARGIN CLASSES
 ================================
 */
+
+/* === Custom Styles for Abstract Link Hover === */
+.abstract-toggle {
+  cursor: pointer;
+}
+.abstract-toggle:hover {
+  color: #FD926F;
+  text-decoration: underline;
+}
