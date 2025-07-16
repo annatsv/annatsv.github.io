@@ -264,6 +264,10 @@ b {
 	START OF TEXT STYLES		 
 ============================
 */
+.abstract-toggle:hover {
+  color: #FD926F;
+  text-decoration: none;
+}
 
 .uppercase{
 	text-transform: uppercase;
