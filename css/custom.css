@@ -633,3 +633,12 @@ span.authors { font-size: 18px; }
   font-size: 18px;
   line-height: 1.6;
 }
+
+/* publications & CV link match bio typography */
+span.paper-title,
+span.authors,
+.collapse p,   
+a.cv {           
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
