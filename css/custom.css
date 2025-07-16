@@ -615,3 +615,15 @@ div.cover-text-placeholder{
   text-decoration: none;
 }
 
+/* news, publications, abstract spacing */
+p.news-text,
+span.paper-title,
+span.authors,
+#abstract1 p {
+  line-height: 1.6;   /* match bio */
+}
+
+p.news-text { font-size: 18px; }
+span.paper-title,
+span.authors { font-size: 18px; }
+
