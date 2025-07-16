@@ -627,3 +627,9 @@ p.news-text { font-size: 18px; }
 span.paper-title,
 span.authors { font-size: 18px; }
 
+.news-date strong,
+.news-text,
+.abstract-text {
+  font-size: 18px;
+  line-height: 1.6;
+}
