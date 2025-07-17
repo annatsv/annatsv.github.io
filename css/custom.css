@@ -732,10 +732,24 @@ a.cv {
   object-fit: cover;
   margin-left: 14px;  
   margin-top: 0;     
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 .paper-title {
   font-size: 18px !important;
   line-height: 1.6;
 }
+
+/* Make all .paper-title text the dark publication color */
+span.paper-title {
+  color: #444 !important;
+}
+
+/* Render the “(In collaboration…)” line in the default intro grey */
+span.paper-details {
+  color: #5b5e6d;
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
