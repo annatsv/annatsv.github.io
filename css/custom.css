@@ -754,7 +754,7 @@ span.paper-details {
 	/* Always keep the abstract text at this size */
 #abstract1 .abstract-text,
 #abstract1 p {
-  font-size: 14px !important;
+  font-size: 16px !important;
   line-height: 1.6   !important;
   margin: 0;
 }
