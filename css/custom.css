@@ -678,12 +678,6 @@ a.cv {
     max-width: 120px;
   }
 
-#abstract1 p {
-  /* same size at all times, even during the slide animation */
-  font-size: 12px !important;
-  line-height: 1.4 !important;
-}
-}
 
 /* ---- Hero header tweaks ---- */
 .header-hero {
@@ -755,5 +749,13 @@ span.paper-details {
 
 #portfolio {
   padding-bottom: 80px; /* matches your .margin-top-xl (160px) */
+}
+
+	/* Always keep the abstract text at this size */
+#abstract1 .abstract-text,
+#abstract1 p {
+  font-size: 14px !important;
+  line-height: 1.6   !important;
+  margin: 0;
 }
 
