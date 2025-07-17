@@ -732,4 +732,7 @@ a.cv {
   margin-top: 6px;         /* nudge down to match your first paragraph */
 }
 
-
+.paper-title {
+  font-size: 18px !important;
+  line-height: 1.6;
+}
