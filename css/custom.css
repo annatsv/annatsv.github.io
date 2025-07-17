@@ -723,7 +723,7 @@ a.cv {
   max-width: 300px;  /* or whatever maximum width you want */
   width: 100%;       /* so it scales down if needed */
   height: auto;      /* keeps the original aspect ratio */
-  margin-left: 4px;
+  margin-left: 0px;
   margin-top: 0;
   border-radius: 6px;  /* no more circle */
 }
