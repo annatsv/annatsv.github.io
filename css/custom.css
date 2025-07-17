@@ -677,6 +677,12 @@ a.cv {
   .intro-photo {
     max-width: 120px;
   }
+
+#abstract1 p {
+  /* same size at all times, even during the slide animation */
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+}
 }
 
 
