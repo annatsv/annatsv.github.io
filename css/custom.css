@@ -753,3 +753,7 @@ span.paper-details {
   line-height: 16px;
 }
 
+#portfolio {
+  padding-bottom: 160px; /* matches your .margin-top-xl (160px) */
+}
+
