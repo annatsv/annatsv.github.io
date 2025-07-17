@@ -724,16 +724,16 @@ a.cv {
   margin: 0;
 }
 
-/* constrain & align the bio photo */
 .bio-photo {
   float: right;
-  width: 380px;     
-  height: 380px;
-  object-fit: cover;
-  margin-left: 14px;  
-  margin-top: 0;     
-  border-radius: 0%;
+  max-width: 300px;  /* or whatever maximum width you want */
+  width: 100%;       /* so it scales down if needed */
+  height: auto;      /* keeps the original aspect ratio */
+  margin-left: 14px;
+  margin-top: 0;
+  border-radius: 0;  /* no more circle */
 }
+
 
 .paper-title {
   font-size: 18px !important;
