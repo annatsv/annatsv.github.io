@@ -685,4 +685,28 @@ a.cv {
 }
 }
 
+/* --- Hero header tweaks --- */
+.header-hero {
+  margin-top: 80px;   
+  margin-bottom: 40px; 
+  overflow: hidden;   
+}
+
+.hero-photo {
+  float: right;
+  width: 200px;        
+  max-width: 40%;
+  margin-left: 20px;   
+  border-radius: 8px; 
+}
+
+@media (max-width: 767px) {
+  .hero-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 24px;
+    width: 60%;
+  }
+}
+
 
