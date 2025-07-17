@@ -685,28 +685,44 @@ a.cv {
 }
 }
 
-/* --- Hero header tweaks --- */
+/* ---- Hero header tweaks ---- */
 .header-hero {
-  margin-top: 80px;   
-  margin-bottom: 40px; 
-  overflow: hidden;   
+  margin-top: 80px;     /* same as margin-top-xl */
+  margin-bottom: 24px;  /* smaller gap before the bio */
+  overflow: hidden;     /* contain floats */
 }
 
 .hero-photo {
   float: right;
-  width: 200px;        
-  max-width: 40%;
-  margin-left: 20px;   
-  border-radius: 8px; 
+  width: 160px;         /* tweak up/down as you like */
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;   /* makes it perfectly circular */
+  margin-left: 16px;    /* small gap between name & image */
 }
 
+/* responsive: stack on mobile */
 @media (max-width: 767px) {
   .hero-photo {
     float: none;
     display: block;
     margin: 0 auto 24px;
     width: 60%;
+    height: auto;
   }
 }
+
+/* Publications bottom spacing */
+.margin-btm-lg {
+  margin-bottom: 48px !important;
+}
+
+/* Abstract font always same size/spacing */
+.abstract-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
 
 
