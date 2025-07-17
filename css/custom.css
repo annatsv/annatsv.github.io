@@ -724,5 +724,12 @@ a.cv {
   margin: 0;
 }
 
+/* constrain & align the bio photo */
+.bio-photo {
+  max-height: 250px;       /* adjust so bottom aligns with email line */
+  width: auto;
+  float: right;
+  margin-top: 6px;         /* nudge down to match your first paragraph */
+}
 
 
