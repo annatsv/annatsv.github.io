@@ -721,7 +721,7 @@ a.cv {
 .bio-photo {
   float: right;
   max-width: 300px;  /* or whatever maximum width you want */
-  width: 100%;       /* so it scales down if needed */
+  width: auto;       /* so it scales down if needed */
   height: auto;      /* keeps the original aspect ratio */
 position: relative; /* enable left/right offsets */
   margin-left: -20px !important;
