@@ -665,4 +665,18 @@ a.cv {
   line-height: 1.6 !important;
 }
 
+/* make the intro photo bigger and float right */
+.intro-photo {
+  max-width: 200px;  
+  width: 100%;
+  border-radius: 50%;  /* keeps it round */
+}
+
+/* small-screen tweak */
+@media (max-width: 767px) {
+  .intro-photo {
+    max-width: 120px;
+  }
+}
+
 
