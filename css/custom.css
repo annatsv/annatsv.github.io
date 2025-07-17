@@ -726,10 +726,13 @@ a.cv {
 
 /* constrain & align the bio photo */
 .bio-photo {
-  max-height: 250px;       /* adjust so bottom aligns with email line */
-  width: auto;
   float: right;
-  margin-top: 6px;         /* nudge down to match your first paragraph */
+  width: 180px;     
+  height: 180px;
+  object-fit: cover;
+  margin-left: 24px;  
+  margin-top: 0;     
+  border-radius: 50%;
 }
 
 .paper-title {
