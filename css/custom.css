@@ -760,3 +760,47 @@ span.paper-details {
   margin: 0;
 }
 
+/* hide the real checkbox */
+.dark-toggle-checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+/* style the label/icon */
+.dark-toggle-label {
+  cursor: pointer;
+  font-size: 1.3em;
+  color: #444;
+  transition: color 0.2s;
+}
+.dark-toggle-label:hover {
+  color: #FD926F;
+}
+
+/* when checked, flip icon from moon to sun */
+.dark-toggle-checkbox:checked + .dark-toggle-label .fa {
+  content: "\f185"; /* FontAwesome sun-o */
+}
+
+#page-top.dark-mode,
+#page-top.dark-mode body,
+#page-top.dark-mode section,
+#page-top.dark-mode .container {
+  background: #111;
+  color: #ddd;
+}
+#page-top.dark-mode a {
+  color: #bbb;
+}
+/* when #dark-toggle is checked, apply dark-mode to <body> */
+.dark-toggle-checkbox:checked ~ section#portfolio,
+.dark-toggle-checkbox:checked ~ section#portfolio body {
+  background: #111 !important;
+  color: #ddd !important;
+}
+/* and all your other dark-mode overrides, e.g.: */
+.dark-toggle-checkbox:checked ~ section#portfolio a {
+  color: #bbb !important;
+}
+
+
