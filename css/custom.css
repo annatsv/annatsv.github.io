@@ -727,10 +727,10 @@ a.cv {
 /* constrain & align the bio photo */
 .bio-photo {
   float: right;
-  width: 180px;     
-  height: 180px;
+  width: 380px;     
+  height: 380px;
   object-fit: cover;
-  margin-left: 24px;  
+  margin-left: 14px;  
   margin-top: 0;     
   border-radius: 50%;
 }
