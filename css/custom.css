@@ -238,6 +238,8 @@ span.paper-title{
 	font-family: 'AvenirNext-DemiBold', sans-serif;
 	font-size: 18px;
 	line-height: 18px;
+	font-style: normal !important;
+
 }
 
 span.authors{
